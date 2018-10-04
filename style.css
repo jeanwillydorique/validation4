@@ -1,0 +1,127 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin :0;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+input[type="button"],input[type="submit"]{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.sec1{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin :0;
+    /* The image used */
+    background-image: url("./image/fond1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec2{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin :0;
+    /* The image used */
+    background-image: url("./image/fond2.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec3{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin :0;
+    /* The image used */
+    background-image: url("./image/fond3.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{  
+    position: absolute; 
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    width: 100%; 
+    padding: 20px; 
+}
+
+.login{
+    height: 4%;
+    width: 100%;
+    padding: 0;
+    margin :0;
+    background-color: red;
+}
+
+footer{
+    height: 15%;
+    width: 100%;
+    padding: 0;
+    margin :0;
+    background-color: black;
+}
+
+/* style loginpage */ 
+
+.logbloc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* logpage */
+
+.apercubloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.hidedisable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
