@@ -1,4 +1,7 @@
 
+
+
+
 <!DOCTYPE html>
 <html lang="FR">
 <head>
@@ -13,6 +16,7 @@
     </div>
 <?php
     // on crée un cookie 
+    //je suis sur la branche test
     setcookie('nom','home',time() + 365 * 24 * 3600, null, null, false, true ); 
 
     // on le détruit 
